@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://2sensation.com/wp-content/uploads/2022/11/cropped-2s-192x192.webp" sizes="192x192">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Ojitos 👀</title>
+</head>
+
+<body>
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-3 col-4">
+            <img src="titulo.jpg" class="responsive float-start" width="100%" alt="">
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <audio src="audio.mp3" controls autoplay></audio>
+        </div>
+    </div>
+
+    <div id="cuerpo">
+        <div class="book">
+            <input type="checkbox" id="c1" />
+            <input type="checkbox" id="c2" />
+            <input type="checkbox" id="c3" />
+            <input type="checkbox" id="c4" />
+            <input type="checkbox" id="c5" />
+
+            <div id="cover"><img src="PortadaInicio.jpeg" class="img-libro" /></div>
+            <div class="flip-book">
+                <div class="flip" id="p1">
+                    <div class="back">
+                        <!-- IMAGEN 3 -->
+                        <img src="Pagina2.jpg" class="img-libro" />
+                        <label class="back-btn btn btn-dark text-light" for="c1">Atras <i class="bi bi-caret-left-square-fill"></i></label>
+                    </div>
+                    <div class="front">
+                        <!-- IMAGEN 2 -->
+                        <img src="Pagina1.jpg" class="img-libro"/>
+                        <label class="next-btn btn btn-dark text-light" for="c1">Siguiente <i class="bi bi-caret-right-square-fill"></i></label>
+                    </div>
+                </div>
+                <div class="flip" id="p2">
+                    <div class="back">
+                        <!-- IMAGEN 5 -->
+                        <img src="Pagina4.jpg" class="img-libro"/>
+                        <label class="back-btn btn btn-dark text-light" for="c2">Atras <i class="bi bi-caret-left-square-fill"></i></label>
+                    </div>
+                    <div class="front">
+                        <!-- IMAGEN 4 -->
+                        <img src="Pagina3.jpg" class="img-libro"/>
+                        <label class="next-btn btn btn-dark text-light" for="c2">Siguiente <i class="bi bi-caret-right-square-fill"></i></label>
+                    </div>
+                </div>
+                <div class="flip" id="p3">
+                    <div class="back">
+                        <!-- IMAGEN 7 -->
+                        <img src="Pagina6.jpg" class="img-libro"/>
+                        <label class="back-btn btn btn-dark text-light" for="c3">Atras <i class="bi bi-caret-left-square-fill"></i></label>
+                    </div>
+                    <div class="front">
+                        <!-- IMAGEN 6 -->
+                        <img src="Pagina5.jpg" class="img-libro"/>
+                        <label class="next-btn btn btn-dark text-light" for="c3">Siguiente <i class="bi bi-caret-right-square-fill"></i></label>
+                    </div>
+                </div>
+                <div class="flip" id="p4">
+                    <div class="back">
+                        <!-- IMAGEN 9 -->
+                        <img src="PortadaFinal.jpeg" class="img-libro"/>
+                        <label class="back-btn btn btn-dark text-light" for="c4">Atras <i class="bi bi-caret-left-square-fill"></i></label>
+                    </div>
+                    <div class="front">
+                        <!-- IMAGEN 8 -->
+                        <img src="Pagina7.jpg" class="img-libro"/>
+                        <label class="next-btn btn btn-dark text-light" for="c4">Siguiente <i class="bi bi-caret-right-square-fill"></i></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
